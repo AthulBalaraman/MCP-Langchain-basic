@@ -14,7 +14,7 @@ async def main():
         {
             "math-server" : {
             "command": "python",
-            "args": ["math_server.py"], #Ensure correct abslute path 
+            "args": ["math-server.py"], #Ensure correct abslute path 
             "transport":"stdio"
             },
             "weather-server" : {
